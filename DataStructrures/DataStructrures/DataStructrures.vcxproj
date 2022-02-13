@@ -140,6 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="markdown语法.md" />
+    <CustomBuild Include="Enumerate.md">
+      <FileType>Document</FileType>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lights_out_problem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
