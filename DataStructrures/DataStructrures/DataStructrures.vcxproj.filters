@@ -19,10 +19,16 @@
     <Filter Include="源文件\Enumerate">
       <UniqueIdentifier>{c3533746-69af-4666-bd61-05ea8cf5ed00}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\递归和分治">
+      <UniqueIdentifier>{4a579caf-9704-4a51-be16-c0afb189bc4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="markdown语法.md">
       <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="递归和分治.md">
+      <Filter>源文件\递归和分治</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -39,5 +45,13 @@
     <ClInclude Include="Lights_out_problem.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataStructrures.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
