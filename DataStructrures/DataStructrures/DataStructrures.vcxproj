@@ -143,6 +143,7 @@
     <CustomBuild Include="Enumerate.md">
       <FileType>Document</FileType>
     </CustomBuild>
+    <Text Include="贪心.md" />
     <Text Include="递归和分治.md" />
   </ItemGroup>
   <ItemGroup>

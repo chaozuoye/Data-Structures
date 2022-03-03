@@ -22,6 +22,9 @@
     <Filter Include="源文件\递归和分治">
       <UniqueIdentifier>{4a579caf-9704-4a51-be16-c0afb189bc4c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\贪心">
+      <UniqueIdentifier>{31c15b24-82b2-4685-9cc5-f22ed44874d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="markdown语法.md">
@@ -29,6 +32,9 @@
     </Text>
     <Text Include="递归和分治.md">
       <Filter>源文件\递归和分治</Filter>
+    </Text>
+    <Text Include="贪心.md">
+      <Filter>源文件\贪心</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
