@@ -139,18 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="markdown语法.md" />
-    <CustomBuild Include="Enumerate.md">
-      <FileType>Document</FileType>
-    </CustomBuild>
-    <Text Include="贪心.md" />
-    <Text Include="递归和分治.md" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lights_out_problem.h" />
+    <ClInclude Include="QuickSort.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

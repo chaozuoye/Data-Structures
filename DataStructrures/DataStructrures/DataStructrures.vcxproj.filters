@@ -16,31 +16,6 @@
     <Filter Include="源文件\1_C_Reply">
       <UniqueIdentifier>{ef430d87-340f-430c-895d-b38b7d4a679b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\Enumerate">
-      <UniqueIdentifier>{c3533746-69af-4666-bd61-05ea8cf5ed00}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\递归和分治">
-      <UniqueIdentifier>{4a579caf-9704-4a51-be16-c0afb189bc4c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\贪心">
-      <UniqueIdentifier>{31c15b24-82b2-4685-9cc5-f22ed44874d2}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="markdown语法.md">
-      <Filter>资源文件</Filter>
-    </Text>
-    <Text Include="递归和分治.md">
-      <Filter>源文件\递归和分治</Filter>
-    </Text>
-    <Text Include="贪心.md">
-      <Filter>源文件\贪心</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="Enumerate.md">
-      <Filter>源文件\Enumerate</Filter>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -52,6 +27,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
