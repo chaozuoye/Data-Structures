@@ -143,8 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lights_out_problem.h" />
-    <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="Sort.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="zijie1mian.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DataStructrures.rc" />

@@ -16,6 +16,9 @@
     <Filter Include="源文件\1_C_Reply">
       <UniqueIdentifier>{ef430d87-340f-430c-895d-b38b7d4a679b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\面试题">
+      <UniqueIdentifier>{4916663d-1fe9-4c03-a85a-6dbcd60e7cc3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -29,8 +32,11 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="QuickSort.h">
+    <ClInclude Include="Sort.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zijie1mian.h">
+      <Filter>头文件\面试题</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
